@@ -1,11 +1,13 @@
 import NavBar from "./components/NavBar";
 import styled from 'styled-components'
+import HomePage from "./components/HomePage";
 
 
 function App() {
   return (
     <MainContainer>
     <NavBar/>
+    <HomePage/>
     </MainContainer>
   );
 }
